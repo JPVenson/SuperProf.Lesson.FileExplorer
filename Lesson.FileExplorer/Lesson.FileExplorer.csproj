@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\25374_manilla_fs_directory_visiting_icon.png" />
+    <None Remove="Resources\285678_drive_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\25374_manilla_fs_directory_visiting_icon.png" />
+    <Resource Include="Resources\285678_drive_icon.png" />
+  </ItemGroup>
+
+</Project>
